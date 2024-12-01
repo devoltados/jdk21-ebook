@@ -1,38 +1,88 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+*.out
+*.err
+
+# Compiled class files
+/build/
+out/
+bin/
+
+# Maven specific
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+.mvn/wrapper/maven-wrapper.properties
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Gradle specific
+.gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+!gradle-wrapper.jar
 
-### VS Code ###
-.vscode/
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/vcs.xml
 
-### Mac OS ###
+# IntelliJ IDEA sensitive or system files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/dataSources.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/dataSources.temp
+.idea/**/dataSources.public.xml
+
+# IntelliJ IDEA code styles and inspections
+.idea/**/inspectionProfiles
+.idea/**/codeStyles
+
+# Other IntelliJ files
+.idea/**/modules.xml
+.idea/**/modules/
+.idea/**/libraries/
+.idea/**/httpRequests
+.idea/**/databaseDrivers
+.idea/**/assets/
+.idea/**/webResources/
+.idea/**/artifacts/
+
+# Eclipse specific (if migrating between IDEs)
+.project
+.classpath
+.settings/
+.springBeans
+
+# OS generated files
 .DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDE specific
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# JBoss, Wildfly and other server-specific directories
+*.deployments/
+
+# Java test reports
+test-results/
+surefire-reports/
