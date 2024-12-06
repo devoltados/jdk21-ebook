@@ -6,6 +6,7 @@ public class Main {
         Pato pato1 = new Pato();
         pato1.cor = "Branco";
         pato1.peso = 2.5;
+        // tipoBico é um atributo da superclasse Ave
         pato1.tipoBico = "curvo";
 
         Pato pato2 = new Pato();
