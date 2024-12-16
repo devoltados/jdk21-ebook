@@ -17,7 +17,7 @@ class DesafioMatrizTest {
                 { 3, 4 }
         };
         int[][] matrizB = {
-                { 4, 6 },
+                { 5, 6 },
                 { 7, 8 }
         };
         int[][] resultado = DesafioMatriz.soma(matrizA, matrizB);
